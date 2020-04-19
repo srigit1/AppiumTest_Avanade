@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 160.871 s <<< FAILURE! - in TestSuite
+addItemTo_WishList(appiumtests.Qoo10AppTest)  Time elapsed: 119.752 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AndroidUIAutomator: new UiSelector().textContains("Wish List")})
+	at appiumtests.Qoo10AppTest.addItemTo_WishList(Qoo10AppTest.java:55)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4730ac04 (tried for 1 second(s) with 500 milliseconds interval)
+	at appiumtests.Qoo10AppTest.addItemTo_WishList(Qoo10AppTest.java:55)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AndroidUIAutomator: new UiSelector().textContains("Wish List")})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-ICSEB02', ip: '192.168.227.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: AndroidDriver
+	at appiumtests.Qoo10AppTest.addItemTo_WishList(Qoo10AppTest.java:55)
+

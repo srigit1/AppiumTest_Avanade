@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Android App]" parallel="tests">
+  <test thread-count="1" verbose="0" name="Qoo10 App Testing(failed)" parallel="tests">
+    <classes>
+      <class name="appiumtests.Qoo10AppTest">
+        <methods>
+          <include name="addItemTo_WishList"/>
+        </methods>
+      </class> <!-- appiumtests.Qoo10AppTest -->
+    </classes>
+  </test> <!-- Qoo10 App Testing(failed) -->
+</suite> <!-- Failed suite [Android App] -->
