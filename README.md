@@ -32,4 +32,4 @@ target\surefire-reports\Android App\Qoo10 App Testing.html
 Scenarios covered for Automation:
 Identified Qoo10 Android Application for automation.
 1.Open the app and search for “mask” item and verify the results are displayed with search criteria.
-2.Navigated to Digital section and selected iPhone case covers and selected an item and added to Wishlist
+2.Navigated back to Homepage and move to  Digital section and selected iPhone case covers and selected an item and added to Wishlist
